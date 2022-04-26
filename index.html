@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+</head>
+<body>
+    <center>
+    <div id="menu">
+        <ul class="menu1">
+            <li class="links"><a href="#home">Home</a></li>
+            <li class="links"><a href="#grids">Grid View</a></li>
+            <li class="links"><a href="#slides">Slide View</a></li>
+        </ul>
+        <br><br><br>
+    </div>
+        <section id="home">
+            <img class="home" id="gif" src="flowers.gif">
+        </section>
+
+
+        <section id="grids">
+            <h1 class="heading">Grid Gallery</h1>
+        <span>
+            <img class="images" src="blue.jpg">
+            <img class="images" src="Orange.png">
+            <img class="images" src="Pink tulip.jpg">
+            <img class="images" src="purple.jpg">
+        </span>
+        <img class="images" src="Red rose.jpg">
+            <img class="images" src="violet.jpg">
+            <img class="images" src="White.jpg">
+        </section>
+
+
+        <section id="slides">
+            <h1 class="heading">Sliding Gallery</h1>
+            
+            <div id="mycarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active" id="bg">
+                        <center>
+                            <img class="img-responsive size" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoOxCqYgtSEq7JXg7OMWZjfPzuolBPC_M5Aw&usqp=CAU">
+                            <div class="carousel-content">
+                                <p id="text">Rose</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img id="img-responsive size" src="https://english.mathrubhumi.com/polopoly_fs/1.3215425.1539237272!/image/image.jpg_gen/derivatives/landscape_894_577/image.jpg">
+                            <div class="carousel-content">
+                                <p id="text">Lotus</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img id="img-responsive size" src="https://news.uga.edu/wp-content/uploads/2020/07/sunflower.jpg">
+                            <div class="carousel-content">
+                                <p id="text">Sunflower</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img id="img-responsive size" src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Lilium_longiflorum_%28Easter_Lily%29.JPG">
+                            <div class="carousel-content">
+                                <p id="text">Lily</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img id="img-responsive size" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Water_hyacinth.jpg/1024px-Water_hyacinth.jpg">
+                            <div class="carousel-content">
+                                <p id="text">Water hycinth</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img id="img-responsive size" src="https://ucanr.edu/blogs/napanewspaper//blogfiles/75849_original.jpg">
+                            <div class="carousel-content ">
+                                <p id="text">Daffodils</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img id="img-responsive size" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRweXmvE-B-SREhzAEWxFmk6XuAJ10MIqkPnw&usqp=CAU">
+                            <div class="carousel-content ">
+                                <p id="text">Marigold</p>
+                            </div>
+                        </center>
+                    </div>
+                    
+                    <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left">
+                        </span>
+                    </a>
+                    <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right">
+                        </span>
+                    </a>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                        <li data-target="#mycarousel" data-slide-to="3"></li>
+                        <li data-target="#mycarousel" data-slide-to="4"></li>
+                        <li data-target="#mycarousel" data-slide-to="5"></li>
+                        <li data-target="#mycarousel" data-slide-to="6"></li>
+                        <li data-target="#mycarousel" data-slide-to="7"></li>
+                        
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </center>
+</body>
+</html>
